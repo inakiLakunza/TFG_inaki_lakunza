@@ -1,0 +1,6 @@
+I will upload 4 notebooks: A program to collect samples for the database,
+a program capable of predicting individual American Sign Language symbols, a program to write ASL messages and another program to predict ASL messages.
+
+I will also upload the model I used on the notebooks and the database I collected 
+(I trained the model extending the database, creating one artificial image for every original image, but I will only upload the orginal images;
+I extended the databse using brightness_range = [0.85, 1.15] and rotation_range = 12 with ImageDataGenerator)
