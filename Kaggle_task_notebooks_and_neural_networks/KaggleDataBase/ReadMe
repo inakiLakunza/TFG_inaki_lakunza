@@ -1,1 +1,4 @@
 This folder contains the Kaggle Databases: a training set and a test set.
+
+Otherwise, the complete folder of the task (which, apart from the sets, contains images of the ASL signs) can be found at the Kaggle webpage, the tasks name is:
+Sign Language MNIST
