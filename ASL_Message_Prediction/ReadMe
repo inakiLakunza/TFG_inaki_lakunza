@@ -2,8 +2,11 @@ I will upload 4 notebooks: A program to collect samples for the database,
 a program capable of predicting individual American Sign Language symbols, a program to write ASL messages and another program to predict ASL messages.
 
 I will also upload the model I used on the notebooks and the database I collected 
-(I trained the model extending the database, creating one artificial image for every original image, but I will only upload the orginal images;
+(I trained the model extending the database, creating one artificial image for every original image, but I will only upload the original images;
 I extended the databse using brightness_range = [0.85, 1.15] and rotation_range = 12 with ImageDataGenerator)
 
-
+The IndividualSignsPrediction, ASL_MessageWriting and the ASL_MessagePrediction notebooks use the Convolutional Neural Network uploaded in this folder.
+The network has been trained using 624000 images, which where taken in different places and with different light conditions to add some variety,
+but they were all taken by the same person, so they all use a similar hand orientation, so it is recommended to see the following
+image (or the image named 'all_signs.png') to see how to orientate the hand with each symbol.
 ![all_signs](https://github.com/inakiLakunza/TFG_inaki_lakunza/assets/136484940/5a08d3b3-0e2f-445e-9012-94cc6aad4dee)
