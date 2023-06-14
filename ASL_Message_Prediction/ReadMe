@@ -6,4 +6,4 @@ I will also upload the model I used on the notebooks and the database I collecte
 I extended the databse using brightness_range = [0.85, 1.15] and rotation_range = 12 with ImageDataGenerator)
 
 
-![Alt text](ASL_Message_Prediction/all_signs.png)
+![all_signs](https://github.com/inakiLakunza/TFG_inaki_lakunza/assets/136484940/5a08d3b3-0e2f-445e-9012-94cc6aad4dee)
