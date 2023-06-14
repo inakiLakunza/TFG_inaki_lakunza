@@ -4,3 +4,6 @@ a program capable of predicting individual American Sign Language symbols, a pro
 I will also upload the model I used on the notebooks and the database I collected 
 (I trained the model extending the database, creating one artificial image for every original image, but I will only upload the orginal images;
 I extended the databse using brightness_range = [0.85, 1.15] and rotation_range = 12 with ImageDataGenerator)
+
+
+![Alt text](all_signs.png)
