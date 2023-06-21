@@ -1,4 +1,4 @@
-I will upload 4 notebooks: A program to collect samples for the database,
+There are 4 notebooks available: A program to collect samples for the database,
 a program capable of predicting individual American Sign Language symbols, a program to write ASL messages and another program to predict ASL messages.
 
 IMPORTANT!!!!
@@ -6,8 +6,8 @@ THE DATABASE AND THE MODEL I CREATED CAN'T BE UPLOADED HERE DUE TO THE FACT THAT
 FOLDER WHERE YOU CAN FIND THE MODEL (named 'final_model.h5'), THE DATABASE (compressed in a folder named 'base_de_datos_original.rar') AND SOME FOLDERS WHICH CONTAIN VIDEO-DEMOSTRATIONS OF THE DIFFERENT NOTEBOOKS.
 ![link](https://drive.google.com/drive/folders/1NdFK7Cu9c_eIjNO1OzNUM72DBorH0WJa?usp=sharing)
 
-I trained the model extending the database, creating one artificial image for every original image, but I will only upload the original images;
-I extended the databse using brightness_range = [0.85, 1.15] and rotation_range = 12 with ImageDataGenerator
+I trained the model extending the database, creating one artificial image for every original image, but I decided to upload only the original images;
+The model was trained extending the original database using brightness_range = [0.85, 1.15] and rotation_range = 12, with ImageDataGenerator.
 
 The IndividualSignsPrediction, ASL_MessageWriting and the ASL_MessagePrediction notebooks use the Convolutional Neural Network uploaded in this folder.
 The network has been trained using 624000 images, which where taken in different places and with different light conditions to add some variety,
